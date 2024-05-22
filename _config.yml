@@ -1,5 +1,7 @@
-name: Awesome Research Group
-url: http://awesome.example.edu
+name: Penn's Security and Privacy Lab
+url: https://splab.cis.upenn.edu/
+description: >
+    The security and privacy lab at the University of Pennsylvania performs fundamental research in the areas of cryptography, blockchain, anonymous communication, differential privacy, and programming language security.
 
 exclude: [bibble, README.md, Makefile, screenshot.png]
 
@@ -13,32 +15,52 @@ permalink: /blog/:year/:month/:day/:title.html
 roles:
   - key: faculty
     name: Faculty
-  - key: staff
-    name: Staff
   - key: postdoc
     name: Researchers
   - key: grad
     name: Graduate Students
   - key: ugrad
     name: Undergraduate Students
-  - key: ugrad-alum
-    name: Past Undergraduate Students
   - key: collab
-    name: Collaborators
+    name: Affiliated Faculty
   - key: alum
     name: Alumni
 
+research:
+  - Anonymous communication
+  - Blockchains
+  - Differential privacy
+  - Multiparty computation
+  - Private federated analytics
+  - Private information retrieval
+  - Zero-knowledge proofs
+  - Programming language security
+  - Formal verification
+
+courses:
+  - number: CIS 2330
+    name: Introduction to blockchain
+    url: "https://splab.cis.upenn.edu/" # FIXME
+  - number: CIS 4510
+    name: Computer Network Security
+    url: "https://www.cis.upenn.edu/~sga001/classes/cis551s24/"
+  - number: CIS 5560
+    name: Cryptography
+    url: "https://pratyushmishra.com/classes/cis-5560-s24/"
+  - number: MCIT 5820
+    name: Blockchains
+    url: "https://www.cis.upenn.edu/~fbrett/mcit582.html"
+
 # Number of news stories on the front page.
-front_page_news: 8
+front_page_news: 0
 
 # Base pathname for links.
 base: ''
 
-# make pages for the _projects folder
+# make pages for the _people folder
 collections:
-  projects:
-    output: true
-
+  - people
+    
 # Navigation bar links.
 navigation:
   - title: Home
@@ -46,8 +68,6 @@ navigation:
   - title: People
     link: /#people
   - title: Research
-    link: /research.html
+    link: /#research
   - title: Publications
     link: /publications.html
-  - title: Code
-    link: /code.html
