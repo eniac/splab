@@ -24,21 +24,26 @@ role-tables:
 </div>
 
 <section>
-    <h2>Research</h2>
-    <ul>
-	{% for r in site.research %}
-		<li> {{ r }} </li>
-	{% endfor %}
-    </ul>
-</section>
-
-<section>
-    <h2>Courses</h2>
-    <ul>
-	{% for c in site.courses %}
-		<li> {{ c.number }}: <a href={{ c.url }}>{{ c.name }}</a> </li>
-	{% endfor %}
-   </ul>
+    <table style="border-collapse: collapse;">
+        <tr>
+            <td style="border: none; vertical-align: top;">
+                    <h2>Research</h2>
+                    <ul>
+                    {% for r in site.research %}
+                        <li> {{ r }} </li>
+                    {% endfor %}
+                    </ul>
+            </td>         
+            <td style="border: none; vertical-align: top;">
+                    <h2>Courses</h2>
+                    <ul>
+                    {% for c in site.courses %}
+                        <li> {{ c.number }}: <a href={{ c.url }}>{{ c.name }}</a> </li>
+                    {% endfor %}
+                   </ul>
+            </td>
+        </tr>
+    </table>
 </section>
 
 <div id="people">
