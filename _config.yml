@@ -17,10 +17,8 @@ roles:
     name: Faculty
   - key: postdoc
     name: Researchers
-  - key: grad
-    name: Graduate Students
-  - key: ugrad
-    name: Undergraduate Students
+  - key: student
+    name: Students
   - key: collab
     name: Affiliated Faculty
   - key: alum

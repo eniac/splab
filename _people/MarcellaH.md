@@ -1,6 +1,7 @@
 ---
 name : "Marcella Hastings"
-where: "Cryptographic Engineer, Bolt Labs"
+website: "http://marcellahastings.com/"
+where: "Research Engineer, Galois"
 degree: "PhD"
 role: "alum"
 year : "2021"

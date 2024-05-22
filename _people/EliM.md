@@ -2,6 +2,6 @@
 name : "Elizabeth (Eli) Margolin"
 website : "https://ecmargo.github.io/"
 email : "ecmargo@seas.upenn.edu"
-role: "grad"
+role: "student"
 image : "EliM.jpg"
 ---

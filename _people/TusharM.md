@@ -2,6 +2,6 @@
 name : "Tushar Mopuri"
 website : "https://github.com/tusharmopuri"
 email : "tmopuri@seas.upenn.edu"
-role: "grad"
+role: "student"
 image : "TusharM.jpg"
 ---
