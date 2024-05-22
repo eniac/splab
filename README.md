@@ -1,8 +1,10 @@
-Research Group Web Site Template
+Penn's Security and Privacy Lab
 ================================
+Forked from `uwsampa/research-group-web`
 
 Local build
 ---------
+You need Python, make, ruby and Jekyll.
 
 ```
 python -m venv venv
