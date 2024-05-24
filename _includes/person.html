@@ -39,7 +39,7 @@ there by default by Bootstrap columns.
 {% else %}
     <div class="person person-without-image">
 	{% if person.where %}
-	    {{ name }}, <i>({{ person.where }})</i>
+	    {{ name }} &#8594; <i>{{ person.where }}</i>
 	{% else %}
 	    {{ name }}
         {% endif %}
