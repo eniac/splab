@@ -2,6 +2,6 @@
 name : "Sofia Wawrzyniak"
 website : ""
 email : "fiawawrz@seas.upenn.edu"
-role: "student"
+role: "alum"
 image : "SofiaW.jpg"
 ---
