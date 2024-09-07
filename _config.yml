@@ -57,12 +57,18 @@ base: ''
 
 # make pages for the _people folder
 collections:
-  - people
-    
+  people:
+    output: true
+  seminars:
+    output: true
+    permalink: /seminars/:path/
+  
 # Navigation bar links.
 navigation:
   - title: Home
     link: /
+  - title: Seminars
+    link: /seminars.html
   - title: People
     link: /#people
   - title: Research

@@ -150,3 +150,17 @@ svg {
     // make the alignment just like img from bootstrap's reboot.scss
     vertical-align: middle;
 }
+
+
+/* Date Column */
+.seminar-date-column {
+    width: 16%;        /* Allow the column to be responsive */
+    word-wrap: break-word;
+  }
+  
+/* Date Column */
+.seminar-files-column {
+    width: 10%;        /* Allow the column to be responsive */
+    word-wrap: break-word;
+  }
+  
