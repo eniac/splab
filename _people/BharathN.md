@@ -3,5 +3,5 @@ name : "Bharath Namboothiry"
 website : "https://namboothiry.com"
 email : "namboo@seas.upenn.edu"
 role: "student"
-image : "Bharath.jpg"
+image : "BharathN.jpeg"
 ---
