@@ -58,7 +58,7 @@ layout: default
             <button class="btn btn-link p-0" type="button" data-toggle="collapse" data-target="#abstract-{{ forloop.index }}" aria-expanded="false" aria-controls="abstract-{{ forloop.index }}" title="View Abstract">
               <i class="fas fa-chevron-down"></i>
             </button>
-            <div id="abstract-{{ forloop.index }}" class="collapse abstract-collapse">
+            <div id="abstract-{{ forloop.index }}" class="collapse abstract-collapse" style="text-align: justify;">
               <hr> <!-- Line between the title and abstract -->
               <div class="abstract-text">
                 {{ seminar.abstract }}
