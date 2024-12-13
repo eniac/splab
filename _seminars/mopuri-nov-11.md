@@ -8,5 +8,5 @@ I will describe NOPE [SOSP ’24], a new mechanism for server authentication tha
 NOPE's core technical contributions (which generalize beyond NOPE) include efficient techniques for representing parsing and cryptographic operations within succinct proofs, which reduce proof generation time and memory requirements by nearly an order of magnitude.
 Joint work with Jeff J. Ma, Joseph Bonneau, and Michael Walfish"
 paper: "https://nope-tools.org/nope.pdf"
-speaker_website: "https://jbonneau.com/"
+speaker_website: "https://www.mathmasterzach.com/"
 ---
