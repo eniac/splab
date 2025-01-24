@@ -1,7 +1,8 @@
 name: Penn's Security and Privacy Lab
 url: https://splab.cis.upenn.edu/
 description: >
-    The security and privacy lab at the University of Pennsylvania performs fundamental research in the areas of cryptography, blockchain, anonymous communication, differential privacy, and programming language security.
+    The security and privacy lab at the University of Pennsylvania performs fundamental research in the areas of cryptography, blockchain, anonymous communication, differential privacy, architecture, 
+    and programming language security.
 
 exclude: [bibble, README.md, Makefile, screenshot.png]
 
