@@ -1,7 +1,7 @@
 ---
 name : "Eleftherios Ioannidis"
 website : "https://elefthei.github.io/"
-email : "elefthei@seas.upenn.edu"
-role: "student"
-image : "LefI.jpg"
+where: "Senior Research Engineer, Microsoft Research"
+role: "alumni"
+year: "2025"
 ---
