@@ -36,17 +36,22 @@ research:
   - Programming language security
   - Processor extensions for security
   - Formal verification
+  - Static analysis
+  - Access control languages
 
 courses:
   - number: CIS 2330
     name: Introduction to blockchain
     url: "https://splab.cis.upenn.edu/" # FIXME
-  - number: CIS 4510
-    name: Computer Network Security
-    url: "https://www.cis.upenn.edu/~sga001/classes/cis551s24/"
+  - number: CIS 4510/5510
+    name: Computer and Network Security
+    url: "https://www.cis.upenn.edu/~sga001/classes/cis551f25/"
   - number: CIS 5560
     name: Cryptography
     url: "https://pratyushmishra.com/classes/cis-5560-s24/"
+  - number: ESE 5370
+    name: Hardware Security
+    url: "https://www.seas.upenn.edu/~ese5370/"
   - number: MCIT 5820
     name: Blockchains
     url: "https://www.cis.upenn.edu/~fbrett/mcit582.html"
